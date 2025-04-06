@@ -1,0 +1,135 @@
+.write{
+    background-color: #ffff;
+    align-items: center;
+    justify-content: space-between;  
+    height: 510px;
+    width: 750px;
+    border: 2px solid #ddd;
+    position: relative;
+    margin-right:50px;
+    min-height: 50px;
+    margin-top: 10px;
+    gap:5px;
+    align-items: flex-end;
+    justify-content:flex-start;
+}
+
+.Twrite-C{
+    height: 20px;
+    width:730px;
+    font-size: 16px;
+    font-weight: bolder;
+    color: black;
+    resize: none;
+    border: none;
+    padding:0;
+    outline: none;
+}
+
+.Twrite{
+    border-bottom: 1px solid #ddd;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.write-content{
+    width:730px;
+    height:420px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.w{
+    width:730px;
+    height:400px;
+    color: black;
+    resize: none;
+    border: none;
+    padding:0;
+    outline: none;
+}
+
+.wf{
+    height: 40px;
+    border-top: 1.5px solid #ddd;
+    align-items: center;
+    justify-content: flex-start;
+    display: inline-flex;
+    gap: 515px;
+}
+
+.wfl{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 10px;
+    height: 40px;
+    width: 50px;
+}
+
+.hashtag{
+    background-image:url(../img/img/container.articles.write.hashtag.png) ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 40px 40px;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+}
+
+.file{
+    background-image:url(../img/img/container.articles.write.attach.png) ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 40px 40px;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+}
+
+.wfr{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.anonym{
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+    color: #afafaf;
+    letter-spacing: -0.5px;
+}
+
+input[type="checkbox" i] {
+    width: 10px;
+    height: 10px;
+
+}
+
+.question{
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+    color: #afafaf;
+    letter-spacing: -0.5px;
+}
+
+.pen{
+    background-image:url(../img/img/container.articles.write.submit.png) ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: red;
+    background-size: 40px 40px;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+}
+
+.cc{
+    margin: 0px;
+    width: 60px;
+}
