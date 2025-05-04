@@ -730,3 +730,151 @@ body {
     height: auto;
     color: red;
 }
+
+@media screen and (max-width: 640px) {
+    .nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 640px;
+        margin: 0 auto;
+    }
+
+    .category1, .category2 {
+    width: 48%;
+    margin: 5px 0;
+    flex: 1 1 30%;  
+    }
+
+    .category{
+        display: none;
+    }
+
+    .title {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    }
+
+    .M {
+    margin-left: 0;
+    }
+
+    .manu {
+        display: none;
+    }
+
+    .side {
+        display: none;
+    }
+
+    .bbody {
+        display: flex;
+        justify-content: flex-start;  
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .sec {
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 0 10px;
+        
+    }
+
+    .ST {
+        display: none;
+    }
+
+    .logo,
+    .message,
+    .info{
+        display: none;
+    }
+
+
+    .Ncon {
+    width: 100%;
+    }
+
+    aside {
+    display: none;
+    }
+
+    .pen{
+        width: 40px;
+        height: 40px;
+    }
+
+    .p1, .p2{
+        display: none;
+    }
+
+
+
+
+    .write{
+        width: 640px;
+        width: 100%;
+        margin: 10px 0;
+        padding: 10px 15px;
+    }
+
+    .header-top {
+        display: flex;
+        align-items: center;
+        padding: 10px 20px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        border-bottom: 1px solid #ddd;
+        z-index: 1000;
+    }
+    
+    .menu-icon {
+        display: block;
+        width: 24px;
+        height: 24px;
+        background-image: url('../img/img/aside.title.hamburger.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 10px;
+    }
+    
+    .page-title {
+        display: block;
+        font-size: 18px;
+        font-weight: bold;
+        color: #333;
+    }
+    
+    .cmain{
+        width: 100%;
+        margin: 10px 0;
+        padding: 10px 15px;
+        box-sizing: border-box;
+        height: 2000px;
+    }
+
+    .plus {
+        margin-top: 20px;
+        position: relative; /* 겹침 방지 */
+    }
+    
+    .cwrite {
+        flex-wrap: wrap; /* 줄 바꿈 허용 */
+    }
+    
+    .cwrite-c {
+        flex: 1;
+        margin-right: 10px;
+        min-width: 0;
+    }
+    
+    .cwfr {
+        flex-shrink: 0;
+    }
+}

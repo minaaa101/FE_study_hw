@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box{
+    text-align: center;
+    width: 50%;
+    padding: 40px 20px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.input-id{
+    padding: 12px;
+    font-size: 16px;
+    background-color: #ebebeb    ;
+    border-radius: 8px;
+    border:none;
+}
+
+
+.input-pw{
+    padding: 12px;
+    font-size: 16px;
+    background-color:#ebebeb;
+    border-radius: 8px;
+    border:none;
+}
+
+.login-bt{
+    padding: 12px;
+    font-size: 16px;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.logo{
+    width: 250px;
+    justify-content: center;
+    margin-bottom: 30px;
+    height: auto;
+}
+
+.join-link{
+
+    display: block;
+    margin-top: 100px;
+    color: #666;
+    text-decoration: none;
+    font-size: 14px;
+
+}
+
+.under{
+    margin-top: 40px;
+    font-size: 12px;
+    color: #999;
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    align-items:flex-end;
+}
+
+.under-t{
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width:640px){
+    .box{
+        width: 90%;
+        padding: 30px 15px;
+    }
+
+    .logo{
+        width: 180px;
+        margin-bottom: 20px;
+    }
+
+    .input-id{
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .input-pw{
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .login-bt{
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .join-link{
+        font-size: 10px;
+        gap: 8px;
+        margin-top: 30px;
+    }
+
+    .under-t{
+        font-size: 10px;
+    }
+}
