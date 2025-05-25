@@ -164,8 +164,10 @@ body{
     display: flex;  
     justify-content: center;
     align-items: flex-start; 
-    gap: 20px; 
-    padding: 20px;    
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    padding-left: 20px;
 }
 
 
@@ -338,7 +340,7 @@ body {
     font-size: 0.85em;
 }
 
-.category {
+.category, .category1, .category2 {
     width: 180px;
     margin-top:-40px;
     margin: 30px 5px 10px 5px !important;
@@ -405,9 +407,8 @@ body {
     background-color: white;
     display: flex;
     flex-direction: column;
-    height:1560px;
+    height:1580px;
     width: 800px;
-    padding: 5px 20px;
     border: 1.5px solid #ddd;
     position: relative;
     margin-right:50px;
@@ -420,7 +421,6 @@ body {
 .noncon {
     display: flex;
     width: 100%;
-    height: 50px;
     justify-content: space-between;
     align-items: center;
     padding: 10px 0;
@@ -436,12 +436,24 @@ body {
     width: 50px;
     height: 50px;
     border-radius: 10px;
+    margin-left: 15px;
+}
+
+.nonconimg1 {
+    background-image: url('../img/img/anonymous.profile.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    margin-left: 15px;
 }
 
 .noncond {
     display: flex;
     flex-direction: column;
-    gap: 6px;
+    gap: 5px;
     align-items: flex-start;
     justify-content: center;
     margin-left: 10px;
@@ -462,6 +474,7 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
+    margin-right: 25px;
 }
 
 .noncon-side1,
@@ -479,11 +492,15 @@ body {
 .conT{
     font-size: 25px;
     font-weight: bold;
+    margin-left: 15px;
 }
 
 .con-de{
     font-size: 15px;
-    color:#666
+    color:#666;
+    margin-left: 15px;
+    margin-right: 10px;
+    display: flex;
 }
 
 .conimg{
@@ -496,16 +513,17 @@ body {
 }
 
 .conimg1{
-    background-image:url(../img/img/likelion_promote1.jpg) ; 
+    background-image:url(../img/KakaoTalk_20250522_194427387.jpg) ; 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: 230px;
     height: 230px;
+    margin-left: 15px;
 }
 
 .conimg2{
-    background-image: url(../img/img/likelion_promote2.jpg); 
+    background-image: url(../img/KakaoTalk_20250522_194427387_01.jpg); 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -514,7 +532,7 @@ body {
 }
 
 .conimg3{
-    background-image:url(../img/img/likelion_promote3.jpg) ; 
+    background-image:url(../img/KakaoTalk_20250522_194427387_02.jpg) ; 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -523,16 +541,17 @@ body {
 }
 
 .conimg4{
-    background-image:url(../img/img/likelion_promote4.jpg) ; 
+    background-image:url(../img/KakaoTalk_20250522_194427387_03.jpg) ; 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: 230px;
     height: 230px;
+    margin-left: 15px;
 }
 
 .conimg5{
-    background-image:url(../img/img/likelion_promote5.jpg); 
+    background-image:url(../img/KakaoTalk_20250522_194427387_04.jpg); 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -541,7 +560,7 @@ body {
 }
 
 .conimg6{
-    background-image:url(../img/img/likelion_promote6.jpg) ; 
+    background-image:url(../img/KakaoTalk_20250522_194427387_05.jpg) ; 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -554,6 +573,7 @@ body {
     justify-content: flex-start;
     gap: 10px;
     margin-top:340px ;
+    margin-left: 15px;
 }
 
 .likeimg{
@@ -602,15 +622,19 @@ body {
     display: flex;
     justify-content: flex-start;
     gap: 30px;
+    margin-left: 15px;
 }
 
 .posvot{
-    width: 100px;
+    width: 60px;
     height: 25px;
     background-color:#f9f9f9;
     display: flex;
     border-radius: 15%;
     cursor: pointer;
+    align-items: center;
+    gap: 10px;
+    
 }
 
 .posvotn{
@@ -628,12 +652,14 @@ body {
 }
 
 .scrap{
-    width: 100px;
+    width: 70px;
     height: 25px;
     background-color:#f9f9f9;
-    display: flex;
     border-radius: 15%;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .scrapn{
@@ -651,17 +677,15 @@ body {
 }
 
 .cwrite{
-    background-color: #ffff;
-    align-items: center;
-    justify-content: space-between;  
-    border-bottom: 2px solid #ddd;
+    background-color: #ffff; 
+    border-top: 2px solid #ddd;
     position: relative;
     min-height: 50px;
-    width: 100%;
+    width: 800px;
     gap:5px;
-    align-items: flex-end;
     justify-content:flex-start;
     align-items: center;
+    align-self: flex-end;
     display: inline-flex;
 
 }
@@ -676,6 +700,7 @@ body {
     border: none;
     padding:0;
     outline: none;
+    margin-left: 10px;
 }
 
 .pen{
@@ -699,6 +724,67 @@ body {
     align-items: center;
     gap: 7px;
 }
+
+.cwrite-coment {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px 15px;
+}
+
+
+.comentbox {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+
+
+.cwrite-c-coment textarea {
+    width: 500px;
+    height: 40px;
+    border: none;
+    resize: none;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    outline: none;
+    background-color: #f9f9f9;
+}
+
+
+.cwfr-coment {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+
+
+.cc-coment {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+}
+
+
+
+.pen {
+    background-size: 20px 20px;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 4px;
+}
+
 
 .plus{
     border: 2px solid red;

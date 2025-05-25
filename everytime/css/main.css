@@ -654,6 +654,11 @@
     .page-title {
         display: none;
     }
+
+    #writeContainer{
+        height: 570px;
+        width: 950px;
+    }
     @media screen and (max-width: 640px) {
         .nav {
             display: flex;
