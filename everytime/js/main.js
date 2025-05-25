@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     container.innerHTML = html;
                     container.style.display = "block";
 
-                    // HTML 삽입된 후에 querySelector 다시 실행
+                    
                     const qCheckbox = container.querySelector("#question");
                     const qBox = container.querySelector("#Qbox");
 

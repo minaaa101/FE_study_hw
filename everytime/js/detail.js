@@ -29,10 +29,8 @@ document.addEventListener("DOMContentLoaded", function () {
             });
         }
     });
-});
 
-
-
+    // ✅ 이 아래도 반드시 DOMContentLoaded 안에 있어야 함!
     const posvot = document.querySelector(".posvot");
     const likeNum = document.querySelector(".likenum");
 
@@ -43,12 +41,11 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
-    
     const scrap = document.querySelector(".scrap");
     const starnum = document.querySelector(".starnum");
     const scrapText = document.querySelector(".scrapn");
 
-    let isScrapped = false; 
+    let isScrapped = false;
 
     if (scrap && starnum && scrapText) {
         scrap.addEventListener("click", function () {
@@ -57,14 +54,14 @@ document.addEventListener("DOMContentLoaded", function () {
             if (!isScrapped) {
                 starnum.textContent = count + 1;
                 scrapText.textContent = "스크랩";
-                isScrapped = true;
                 scrap.style.width = "70px";
             } else {
                 starnum.textContent = count - 1;
                 scrapText.textContent = "스크랩 취소";
-                isScrapped = false;
                 scrap.style.width = "100px";
             }
-        });
-}
 
+            isScrapped = !isScrapped;
+        });
+    }
+});
